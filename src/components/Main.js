@@ -114,10 +114,10 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Contact</h2>
+          <h2 className="major">Contatti</h2>
           <form method="post" action="#">
             <div className="field half first">
-              <label htmlFor="name">Name</label>
+              <label htmlFor="name">Nome</label>
               <input type="text" name="name" id="name" />
             </div>
             <div className="field half">
@@ -125,12 +125,12 @@ class Main extends React.Component {
               <input type="text" name="email" id="email" />
             </div>
             <div className="field">
-              <label htmlFor="message">Message</label>
+              <label htmlFor="message">Messaggio</label>
               <textarea name="message" id="message" rows="4"></textarea>
             </div>
             <ul className="actions">
               <li>
-                <input type="submit" value="Send Message" className="special" />
+                <input type="submit" value="Invia messaggio" className="special" />
               </li>
               <li>
                 <input type="reset" value="Reset" />
