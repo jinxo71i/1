@@ -26,7 +26,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            Intro
+            cyberdroid
           </button>
         </li>
         <li>
@@ -35,7 +35,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Work
+            Tools
           </button>
         </li>
         <li>
@@ -44,7 +44,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            About
+            About US
           </button>
         </li>
         <li>
