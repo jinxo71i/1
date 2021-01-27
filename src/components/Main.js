@@ -47,7 +47,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">TOOLS INSIDE Cyberdroid VM</h2>
+          <h2 className="major">VM'S TOOLS</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
@@ -93,7 +93,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">DOWNLOAD CYBERDROID</h2>
+          <h2 className="major">DOWNLOAD VM</h2>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
