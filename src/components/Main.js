@@ -28,30 +28,21 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">HOME</h2>
+          <h2 className="major">CYBERDROID VM</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            This is the first Virtual Machine for Android Malware Analysis
+            ever made.
+            In this virtual machine you can find all the tools you need to scan,
+            analyze and decompile applications made for Android OS.
+            It is based on a Debian XFCE machine and it's so optimized that you can
+            used it with just 1 processor and 1 GB of RAM, on virtualbox or vmware.
           </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
-          </p>
+          
+          
+          
           {close}
         </article>
 
@@ -62,24 +53,38 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">USED TOOLS</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+          <a href="https://ibotpeaches.github.io/Apktool/" target="_blank">- APK Tool</a>
+          <h1> </h1>
+          <a href="https://github.com/MobSF/Mobile-Security-Framework-MobSF" target="_blank">- MobSF</a>
+          <h1> </h1>
+          <a href="https://github.com/xtiankisutsa/MARA_Framework" target="_blank">- MARA Framework</a>
+          <h1> </h1>
+          <a href="https://github.com/AndroBugs/AndroBugs_Framework" target="_blank">- AndroBugs</a>
+          <h1> </h1>
+          <a href="https://github.com/topics/android-debug-bridge" target="_blank">- Android Debug Bridge</a>
+          <h1> </h1>
+          <a href="https://github.com/ASHWIN990/ADB-Toolkit" target="_blank">- Android Debug Bridge CLI</a>
+          <h1> </h1>
+          <a href="https://github.com/java-decompiler/jd-gui" target="_blank">- JD-gui</a>
+          <h1> </h1>
+          <a href="https://www.wireshark.org/docs/wsdg_html_chunked/ChSrcGitRepository.html" target="_blank">- Wireshark</a>
+          <h1> </h1>
+          <a href="https://github.com/frida" target="_blank">- Frida</a>
+          <h1> </h1>
+          <a href="https://hashcat.net/wiki/doku.php?id=example_hashes" target="_blank">- HashCat</a>
+          <h1> </h1>
+          <a href="http://steghide.sourceforge.net/" target="_blank">- Steghide</a>
+          <h1> </h1>
+          <a href="https://www.virtualbox.org/wiki/Linux_Downloads" target="_blank">- VirtualBox</a>
+          <h1> </h1>
+          <a href="https://gchq.github.io/CyberChef/" target="_blank">- CyberChef</a>
+          <h1> </h1>
+          <a href="https://portswigger.net/burp" target="_blank">- BurpSuite</a>
           </p>
           {close}
         </article>
@@ -91,19 +96,17 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">DOWNLOAD</h2>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            Here is where you can find and download your versione of CyberDroid
+            VM for free!
+            Remember to let us know what you think about this VM and write back if
+            you have any problem or suggestions!
           </p>
+          
           {close}
         </article>
 
@@ -114,10 +117,10 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Contatti</h2>
+          <h2 className="major">CONTACT</h2>
           <form method="post" action="#">
             <div className="field half first">
-              <label htmlFor="name">Nome</label>
+              <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
             </div>
             <div className="field half">
@@ -125,12 +128,12 @@ class Main extends React.Component {
               <input type="text" name="email" id="email" />
             </div>
             <div className="field">
-              <label htmlFor="message">Messaggio</label>
+              <label htmlFor="message">Messagge</label>
               <textarea name="message" id="message" rows="4"></textarea>
             </div>
             <ul className="actions">
               <li>
-                <input type="submit" value="Invia messaggio" className="special" />
+                <input type="submit" value="Send Message" className="special" />
               </li>
               <li>
                 <input type="reset" value="Reset" />
