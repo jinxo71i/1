@@ -26,7 +26,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            cyberdroid
+            about vm
           </button>
         </li>
         <li>
