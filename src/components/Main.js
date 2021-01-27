@@ -101,7 +101,7 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <p>
-            Here is where you can find and download your versione of CyberDroid
+            Here is where you can find and download your version of CyberDroid
             VM for free!
             Remember to let us know what you think about this VM and write back if
             you have any problem or suggestions!
