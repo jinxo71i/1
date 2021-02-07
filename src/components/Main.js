@@ -105,7 +105,7 @@ class Main extends React.Component {
           </p>
           <a href="" target="_blank">DOWNLOAD FOR VMWARE</a>
           <p></p>
-          <a href="" target="_blank">DOWNLOAD FOR VIRTUALBOX</a>
+          <a href="https://drive.google.com/file/d/1uTd8kS0kF4-zNISQP3pvJg-a4KRasxIC/view?usp=sharing" target="_blank">DOWNLOAD FOR VIRTUALBOX</a>
           {close}
         </article>
 
